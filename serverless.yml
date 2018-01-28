@@ -6,7 +6,7 @@ provider:
   runtime: dotnetcore1.0
   stage: ${opt:stage} #read from console input
   region:  us-east-1
-  profile: personal #this is the AWS credentials profile, change this.. or pass AWS credentials in the command line (not recommended)
+  profile: sis #this is the AWS credentials profile, change this.. or pass AWS credentials in the command line (not recommended)
   role: arn:aws:iam::227027150061:role/codeBuildDeploy
   memorySize: 128 # Overwrite the default memory size. Default is 1024
   timeout: 100 #default is 6
